@@ -190,7 +190,7 @@
   position: absolute;
   bottom: 0;
   left: 80px;
-  animation: animateHero 1.5s;
+  animation: animateHero 3.5s;
 }
 
 @media (min-width: 768px) {
@@ -219,7 +219,7 @@
   filter: blur(26.8405px);
   border-radius: 70px;
   transform: rotate(20deg);
-  animation: animateBlur 1.5s;
+  animation: animateBlur 3.5s;
 }
 
 @media (min-width: 768px) {
@@ -243,6 +243,7 @@
     width: 426px;
     height: 590px;
     background: rgba(252, 252, 252, 0.44);
+
     filter: blur(26.8405px);
     border-radius: 190px;
   }
