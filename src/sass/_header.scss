@@ -188,15 +188,15 @@
 
 .header__picture-hero {
   position: absolute;
-  bottom: 0;
+  bottom: -20px;
   left: 80px;
-  animation: animateHero 3.5s;
+  animation: animateHero 2.5s cubic-bezier(.65,.05,.36,1);;
 }
 
 @media (min-width: 768px) {
   .header__picture-hero {
     position: absolute;
-    bottom: 0;
+    bottom: -20px;
     left: 400px;
   }
 }
@@ -211,21 +211,22 @@
 
 .header__picture-blur {
   position: absolute;
-  bottom: -10px;
+  bottom: -30px;
   left: 80px;
   width: 187px;
   height: 239px;
+  // background: rgba(236, 18, 18, 0.44);
   background: rgba(252, 252, 252, 0.44);
   filter: blur(26.8405px);
   border-radius: 70px;
   transform: rotate(20deg);
-  animation: animateBlur 3.5s;
+  animation: animateBlur 2.5s cubic-bezier(.65,.05,.36,1);;
 }
 
 @media (min-width: 768px) {
   .header__picture-blur {
     position: absolute;
-    bottom: -10px;
+    bottom: -30px;
     left: 415px;
     width: 258px;
     height: 353px;
